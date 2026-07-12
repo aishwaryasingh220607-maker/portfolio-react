@@ -11,6 +11,15 @@
   --radius: 6px;
   --maxw: 920px;
 }
+[data-theme="dark"] {
+  --bg: #16181a;
+  --surface: #1f2225;
+  --ink: #f1f0ec;
+  --muted: #9a9da1;
+  --line: #2a2d31;
+  --accent: #5fae9b;
+  --accent-2: #d9ab4a;
+}
 
 * { box-sizing: border-box; }
 
@@ -23,6 +32,7 @@ body {
   font-family: var(--sans);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 img { max-width: 100%; display: block; }

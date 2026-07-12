@@ -1,5 +1,5 @@
 import { useState } from 'react'
-
+import ThemeToggle from './ThemeToggle.jsx'
 const LINKS = [
   { href: '#about', label: 'About' },
   { href: '#skills', label: 'Skills' },
@@ -31,6 +31,7 @@ export default function Navbar() {
             </a>
           ))}
         </nav>
+        <ThemeToggle />
       </div>
 
       <style>{`
