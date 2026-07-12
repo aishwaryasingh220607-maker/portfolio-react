@@ -36,12 +36,13 @@ export default function Navbar() {
 
       <style>{`
         .navbar {
-          position: sticky;
-          top: 0;
-          z-index: 50;
-          background: rgba(241, 240, 236, 0.9);
-          backdrop-filter: blur(6px);
-          border-bottom: 1px solid var(--line);
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: var(--bg);
+        backdrop-filter: blur(6px);
+        border-bottom: 1px solid var(--line);
+        opacity: 0.95;
         }
         .navbar-inner {
           display: flex;
