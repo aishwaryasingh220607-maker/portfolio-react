@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="wrap footer-inner">
-        <span>© {new Date().getFullYear()} Your Name</span>
+        <span>© {new Date().getFullYear()} Aishwarya Singh</span>
         <div className="footer-links">
           <a href="https://github.com/aishwaryasingh220607-maker" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/aishwarya-singh2206/" target="_blank" rel="noreferrer">LinkedIn</a>
