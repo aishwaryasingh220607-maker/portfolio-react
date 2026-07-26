@@ -21,7 +21,7 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="wrap">
-        <p className="section-label">// 03 — projects</p>
+        {/*<p className="section-label">// 03 — projects</p>*/}
         <h2 className="section-title">Projects</h2>
 
         <div className="project-list">

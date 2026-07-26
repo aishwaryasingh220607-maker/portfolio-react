@@ -3,7 +3,7 @@ export default function About() {
     <section id="about">
       <div className="wrap about-grid">
         <div>
-          <p className="section-label">// 01 — about</p>
+          {/*<p className="section-label">// 01 — about</p>*/}
           <h2 className="section-title">About Me</h2>
         </div>
         <div className="about-body">

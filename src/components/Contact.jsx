@@ -40,7 +40,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="wrap">
-        <p className="section-label">// 04 — contact</p>
+        {/*<p className="section-label">// 04 — contact</p>*/}
         <h2 className="section-title">Get in Touch</h2>
 
         <form onSubmit={handleSubmit} className="contact-form">
