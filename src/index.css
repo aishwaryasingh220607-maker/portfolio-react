@@ -4,8 +4,8 @@
   --ink: #1b1d1f;
   --muted: #6b6a66;
   --line: #dad7ce;
-  --accent: #2f5d50;   /* deep forest green — structure */
-  --accent-2: #c9962c; /* gold — sparing highlight */
+  --accent: #2f5d50;   
+  --accent-2: #c9962c; 
   --mono: 'JetBrains Mono', ui-monospace, monospace;
   --sans: 'Inter', -apple-system, sans-serif;
   --radius: 6px;

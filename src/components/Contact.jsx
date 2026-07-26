@@ -1,15 +1,14 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
-// Fill these in with the values from your EmailJS dashboard.
-// See README.md for step-by-step setup instructions.
+
 const SERVICE_ID = 'service_ne2ggp8'
 const TEMPLATE_ID = 'template_bl2smeg'
 const PUBLIC_KEY = 'NR7l_-Qq5Vxd6fJHn'
 
 export default function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
-  const [status, setStatus] = useState('idle') // idle | sending | sent | error
+  const [status, setStatus] = useState('idle')
 
   function handleChange(e) {
     setForm({ ...form, [e.target.name]: e.target.value })
