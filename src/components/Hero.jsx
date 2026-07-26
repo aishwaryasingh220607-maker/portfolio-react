@@ -40,7 +40,7 @@ export default function Hero() {
           align-items: center;
           gap: 12px;
           padding: 12px 16px;
-          background: #1f2225;
+          background: #233240;
           border-bottom: 1px solid #2a2d31;
         }
         .dots { display: flex; gap: 6px; }
