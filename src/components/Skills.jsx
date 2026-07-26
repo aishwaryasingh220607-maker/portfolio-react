@@ -10,7 +10,8 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="wrap">
-        <p className="section-label">// 02 — skills</p>
+        {/*<p className="section-label">// 02 — skills</p>*/}
+        
         <h2 className="section-title">Skills</h2>
 
         <div className="skills-grid">
