@@ -45,8 +45,7 @@ a { color: inherit; }
   padding: 0 24px;
 }
 
-/* Every major section is labeled like a line comment in a code file —
-   the recurring signature element that ties the whole page together. */
+
 .section-label {
   font-family: var(--mono);
   font-size: 13px;
