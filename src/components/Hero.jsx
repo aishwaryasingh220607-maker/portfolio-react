@@ -30,7 +30,7 @@ export default function Hero() {
       <style>{`
         .hero { padding-top: 96px; padding-bottom: 96px; }
         .editor {
-          background: #1b3830;
+          background: #0e2238;
           border-radius: 10px;
           overflow: hidden;
           box-shadow: 0 24px 60px -20px rgba(0,0,0,0.35);
